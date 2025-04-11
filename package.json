@@ -1,6 +1,6 @@
 {
     "name": "loadhawk",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "High-performance HTTP/HTTPS load testing tool with multi-core support",
     "main": "load-tester.js",
     "type": "module",
