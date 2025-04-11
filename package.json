@@ -1,0 +1,40 @@
+{
+    "name": "loadhawk",
+    "version": "0.2.0",
+    "description": "High-performance HTTP/HTTPS load testing tool with multi-core support",
+    "main": "load-tester.js",
+    "type": "module",
+    "scripts": {
+      "start": "node load-tester.js",
+      "test": "node load-tester.js --url https://example.com --requests 100 --concurrency 2",
+      "benchmark": "node load-tester.js --url https://example.com --requests 5000"
+    },
+    "keywords": [
+      "load-testing",
+      "performance",
+      "benchmark",
+      "http",
+      "https",
+      "stress-test",
+      "web",
+      "api",
+      "testing"
+    ],
+    "author": "pilot2254",
+    "license": "MIT",
+    "dependencies": {
+      "commander": "^11.0.0",
+      "node-fetch": "^3.3.2"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pilot2254/loadhawk.git"
+    },
+    "bugs": {
+      "url": "https://github.com/pilot2254/loadhawk/issues"
+    },
+    "homepage": "https://github.com/pilot2254/loadhawk#readme"
+  }
